@@ -27,7 +27,7 @@ public class JwtUtils {
         return token;
     }
 
-    //
+    //检查token
     public static Map<String, Object> checkToken(String token){
 
         try {
